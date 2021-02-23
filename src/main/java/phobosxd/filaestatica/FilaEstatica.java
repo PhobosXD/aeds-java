@@ -1,5 +1,7 @@
 package phobosxd.filaestatica;
 
+import phobosxd.Status;
+
 /**
  * @author Cazuza
  * @since 2021-02-23

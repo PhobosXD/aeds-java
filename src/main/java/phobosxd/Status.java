@@ -1,4 +1,4 @@
-package phobosxd.filaestatica;
+package phobosxd;
 
 /**
  * @author Cazuza
@@ -14,7 +14,7 @@ public enum Status {
         this.tamanho = tamanho;
     }
 
-    protected Integer getTamanho() {
+    public Integer getTamanho() {
         return tamanho;
     }
 }
