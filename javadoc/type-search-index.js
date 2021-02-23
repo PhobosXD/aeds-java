@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"phobosxd.filaestatica","l":"FilaEstatica"},{"p":"phobosxd","l":"Main"},{"p":"phobosxd.filaestatica","l":"Status"}]

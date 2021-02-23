@@ -1,0 +1,5 @@
+# Estruturas de dados Java
+
+## Fila estática
+
+Estrutura de fila com tamanho máximo fixo.
