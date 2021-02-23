@@ -3,7 +3,7 @@ package phobosxd.filaestatica;
 import phobosxd.Status;
 
 /**
- * @author Cazuza
+ * @author PhobosXD
  * @since 2021-02-23
  * @version 1.1
  */
@@ -15,7 +15,7 @@ public class FilaEstatica {
     private Integer tamanho = 0;
 
     /**
-     * @author Cazuza
+     * @author PhobosXD
      * @since 2021-02-23
      * @param data Integer: dado a ser inserido.
      * @return Boolean: retorna verdadeiro se for possível inserir o dado. Falso caso
@@ -37,7 +37,7 @@ public class FilaEstatica {
     }
 
     /**
-     * @author Cazuza
+     * @author PhobosXD
      * @since 2021-02-23
      * @return Boolean: retorna true caso tenha excluído o elemento.
      */
@@ -57,7 +57,7 @@ public class FilaEstatica {
     }
 
     /**
-     * @author Cazuza
+     * @author PhobosXD
      * @since 2021-02-23
      * @param posicao Integer: posição do elemento acessado.
      * @return Integer: retorna o elemento caso ele exista. Retorna 0 caso o elemento
@@ -78,7 +78,7 @@ public class FilaEstatica {
     }
 
     /**
-     * @author Cazuza
+     * @author PhobosXD
      * @since 2021-02-23
      * @return Integer: tamanho da fila.
      */

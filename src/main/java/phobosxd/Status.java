@@ -1,7 +1,7 @@
 package phobosxd;
 
 /**
- * @author Cazuza
+ * @author PhobosXD
  * @since 2021-02-23
  * @version 1.0
  */
