@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+group 'PhobosXD'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+checkstyle{
+    toolVersion='8.40'
+    showViolations=true
+    configFile=file("config/checkstyle/checkstyle.xml")
+}
+
+test {
+    useJUnitPlatform()
+}

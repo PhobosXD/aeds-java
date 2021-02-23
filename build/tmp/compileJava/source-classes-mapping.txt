@@ -1,0 +1,6 @@
+phobosxd/filaestatica/Status.java
+ phobosxd.filaestatica.Status
+phobosxd/filaestatica/FilaEstatica.java
+ phobosxd.filaestatica.FilaEstatica
+phobosxd/Main.java
+ phobosxd.Main
