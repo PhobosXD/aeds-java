@@ -4,3 +4,5 @@ phobosxd/Main.java
  phobosxd.Main
 phobosxd/aeds/EstruturaEstatica.java
  phobosxd.aeds.EstruturaEstatica
+phobosxd/aeds/FilaEstatica.java
+ phobosxd.aeds.FilaEstatica
