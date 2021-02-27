@@ -1,5 +1,7 @@
 package phobosxd;
 
+import phobosxd.aeds.FilaEstatica;
+
 /**
  * @author Cazuza
  * @since 2021-02-23
@@ -12,6 +14,6 @@ public class Main {
      * @param args Argumentos da main.
      */
     public static void main(String[] args) {
-
+        FilaEstatica fila = new FilaEstatica();
     }
 }
