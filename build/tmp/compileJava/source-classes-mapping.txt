@@ -6,3 +6,5 @@ phobosxd/aeds/EstruturaEstatica.java
  phobosxd.aeds.EstruturaEstatica
 phobosxd/aeds/FilaEstatica.java
  phobosxd.aeds.FilaEstatica
+phobosxd/aeds/ListaEstatica.java
+ phobosxd.aeds.ListaEstatica
