@@ -23,7 +23,7 @@ public class FilaEstatica implements EstruturaEstatica {
             if (size > 0) {
                 ++fim;
 
-                if (fim == tam) {
+                if (fim.equals(tam)) {
                     fim = 0;
                 }
             }
@@ -48,7 +48,7 @@ public class FilaEstatica implements EstruturaEstatica {
             if (size > 1) {
                 ++inicio;
 
-                if (inicio == tam) {
+                if (inicio.equals(tam)) {
                     inicio = 0;
                 }
             }
