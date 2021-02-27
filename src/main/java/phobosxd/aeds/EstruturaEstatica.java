@@ -2,6 +2,11 @@ package phobosxd.aeds;
 
 import phobosxd.Status;
 
+/**
+ * @author PhobosXD
+ * @since 2021-02-27
+ * @version 2.0
+ */
 public abstract class EstruturaEstatica {
     private final Integer tam = Status.TAM.getTamanho();
     protected final Integer[] vector = new Integer[tam];
@@ -13,6 +18,13 @@ public abstract class EstruturaEstatica {
         return tam;
     }
 
+    /**
+     * Insere um elemento na última posição da estrutura.
+     *
+     * @param data Integer: Elemento a ser inserido.
+     * @return Boolean: Verdadeiro caso o elemento tenha sido inserido. Falso caso
+     * a estrutura esteja cheia.
+     */
     public Boolean push(final Integer data) {
         if (size < tam) {
             if (size > 0) {
@@ -31,6 +43,12 @@ public abstract class EstruturaEstatica {
         return false;
     }
 
+    /**
+     * Exclui o primeiro elemento da estrutura.
+     *
+     * @return Boolean: Verdadeiro caso o elemento tenha sido excluído. Falso caso
+     * a estrurua esteja vazia.
+     */
     public Boolean pop() {
         if (size > 0) {
             if (size > 1) {
