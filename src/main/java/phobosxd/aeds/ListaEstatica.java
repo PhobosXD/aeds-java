@@ -1,5 +1,10 @@
 package phobosxd.aeds;
 
+/**
+ * @author PhobosXD
+ * @since 2021-02-27
+ * @version 2.0
+ */
 public class ListaEstatica extends EstruturaEstatica {
     /**
      * Insere um elemento em qualquer posição da estrutura.
@@ -38,6 +43,13 @@ public class ListaEstatica extends EstruturaEstatica {
         return false;
     }
 
+    /**
+     * Insere um elemento na primeira posição da estrutura.
+     *
+     * @param data Integer: Elemento a ser inserido.
+     * @return Boolean: Verdadeiro caso o elemento tenha sido inserido. Falso caso
+     * a estrutura esteja cheia.
+     */
     public Boolean push_front(final Integer data) {
         if (size < getTam()) {
             primeiro = primeiro == 0 ? (getTam() - 1) : (primeiro - 1);
@@ -51,6 +63,13 @@ public class ListaEstatica extends EstruturaEstatica {
         return false;
     }
 
+    /**
+     * Exclui o elemento de determinada posição.
+     *
+     * @param position Integer: Posição do elemento.
+     * @return Boolean: Verdadeiro caso o elemento tenha sido excluído. Falso caso
+     * a estrutura esteja vazia.
+     */
     public Boolean pop(final Integer position) {
         if (size > 0 && position >= 0 && position < size) {
             Integer pos = position + primeiro;
@@ -63,7 +82,7 @@ public class ListaEstatica extends EstruturaEstatica {
                 pos = pos == (getTam() - 1) ? 0 : (pos + 1);
             }
 
-            ultimo = ultimo == 0 ? (getTam() -1) : (ultimo - 1);
+            ultimo = ultimo == 0 ? (getTam() - 1) : (ultimo - 1);
             --size;
 
             return true;
@@ -72,6 +91,12 @@ public class ListaEstatica extends EstruturaEstatica {
         return false;
     }
 
+    /**
+     * Exclui o elemento da última posição da estrutura.
+     *
+     * @return Boolean: Verdadeiro caso o elemento tenha sido excluído. Falso caso
+     * a estrutura esteja vazia.
+     */
     public Boolean pop_back() {
         if (size > 0) {
             if (size > 1) {
@@ -85,6 +110,13 @@ public class ListaEstatica extends EstruturaEstatica {
         return false;
     }
 
+    /**
+     * Retorna o elemento de determinada posição.
+     *
+     * @param position Integer: Posição do elemento.
+     * @return Integer: Elemento, caso a posição seja válida, ou null, caso a
+     * posição seja inválida.
+     */
     public Integer getElement(final Integer position) {
         if (size > 0 && position >= 0 && position < size) {
             Integer pos = position + primeiro;
